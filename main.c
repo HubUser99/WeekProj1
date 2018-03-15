@@ -4,35 +4,32 @@
 
 int
 main(void){
+while(1){
 	int n;
 	system("clear");
 	printf("_________________________________________________________________________________________________________________________________________________________________\n");
+	printf("                                                                WELCOME TO THE DRAWING INTERFACE\n");
 	printf("                                                                CHOOSE WHICH FIGURE TO DRAW\n");
 	printf("_________________________________________________________________________________________________________________________________________________________________\n");
-	printf("\n");
-	printf("                                                                       1. RECTANGLE\n\n");
-	rectangle();
-	printf("\n");
-	printf("                                                                       2. TRIANGLE\n\n");
-	triangle();
-	printf("\n");
-	printf("                                                                       3. CIRCLE\n\n");
-	circle();
-	printf("\n");
-	printf("                                                                       4. SQUARE\n\n");
-	square();
-	printf("\n");
-	printf("                                                                       5. LINE\n\n");
-	line();
-	printf("\n");
-	printf("                                                                       6. INTERSECTING LINES\n\n");
-	intersec();
+	printf("1. RECTANGLE\n\n");
+	printf("2. TRIANGLE\n\n");
+	printf("3. CIRCLE\n\n");
+	printf("4. SQUARE\n\n");
+	printf("5. LINE\n\n");
+	printf("6. INTERSECTING LINES\n\n");
+	printf("\033[30;1H");
 	printf("_________________________________________________________________________________________________________________________________________________________________\n");
-	printf("                                                                  ENTER WHICH FIGURE TO DRAW (1, 2, 3, 4, 5 or 6)\n");
+	printf("ENTER WHICH FIGURE TO DRAW (1, 2, 3, 4, 5 or 6)                                                            ENTER \"-1\" TO EXIT\n");
 	printf("_________________________________________________________________________________________________________________________________________________________________\n");
 	printf("\n>>> ");
 	scanf("%d", &n);
+	printf("\033[7;61H");
 	switch(n){
+		case -1:
+			printf("\033[0;0H");
+			system("clear");
+			return 0;
+	
 		case 1:
 			rectangle();
 			break;
@@ -60,4 +57,9 @@ main(void){
 			printf("Enter the propper value.");
 			break;
 	}
+	fflush(stdout);
+	printf("\n                                                           PRESS \"ENTER\" TO CONTINUE");
+	getchar();
+	getchar();
+}
 }

@@ -4,30 +4,45 @@
 
 void 
 rectangle(){
-	printf("                                                               * * * * * * * * * * * * *\n");
+	int i = 8;
+
+	printf("* * * * * * * * * * * * *");
+	newline(&i);
 	usleep(TIME_C);
-	printf("                                                               *                       *\n");
+	printf("*                       *");
+	newline(&i);
 	usleep(TIME_C);
-	printf("                                                               *                       *\n");
+	printf("*                       *");
+	newline(&i);
 	usleep(TIME_C);
-	printf("                                                               *                       *\n");
+	printf("*                       *");
+	newline(&i);
 	usleep(TIME_C);
-	printf("                                                               *                       *\n");
+	printf("*                       *");
+	newline(&i);
 	usleep(TIME_C);
-	printf("                                                               *                       *\n");
+	printf("*                       *");
+	newline(&i);
 	usleep(TIME_C);
-	printf("                                                               *                       *\n");
+	printf("*                       *");
+	newline(&i);
 	usleep(TIME_C);
-	printf("                                                               *                       *\n");
+	printf("*                       *");
+	newline(&i);
 	usleep(TIME_C);
-	printf("                                                               *                       *\n");
+	printf("*                       *");
+	newline(&i);
 	usleep(TIME_C);
-	printf("                                                               *                       *\n");
+	printf("*                       *");
+	newline(&i);
 	usleep(TIME_C);
-	printf("                                                               *                       *\n");
+	printf("*                       *");
+	newline(&i);
 	usleep(TIME_C);
-	printf("                                                               *                       *\n");
+	printf("*                       *");
+	newline(&i);
 	usleep(TIME_C);
-	printf("                                                               * * * * * * * * * * * * *\n");
+	printf("* * * * * * * * * * * * *");
+	newline(&i);
 	usleep(TIME_C);
 }

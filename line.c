@@ -4,6 +4,10 @@
 
 void
 line(){
-	printf("                                                               * * * * * * * * * * * * *\n");
-	usleep(TIME_C);
+	int j;
+	for(j = 0; j < 13; j++){
+		printf("* ");
+		fflush(stdout);
+		usleep(TIME_C);
+	}
 }

@@ -4,42 +4,16 @@
 
 void 
 square(){
-	printf("                                                               * * * * * * * * * * * * *\n");
+	int i = 8, j;
+	printf("* * * * * * * * * * * * *\n");
+	newline(&i);
 	usleep(TIME_C);
-	printf("                                                               *                       *\n");
-	usleep(TIME_C);
-	printf("                                                               *                       *\n");
-	usleep(TIME_C);
-	printf("                                                               *                       *\n");
-	usleep(TIME_C);
-	printf("                                                               *                       *\n");
-	usleep(TIME_C);
-	printf("                                                               *                       *\n");
-	usleep(TIME_C);
-	printf("                                                               *                       *\n");
-	usleep(TIME_C);
-	printf("                                                               *                       *\n");
-	usleep(TIME_C);
-	printf("                                                               *                       *\n");
-	usleep(TIME_C);
-	printf("                                                               *                       *\n");
-	usleep(TIME_C);
-	printf("                                                               *                       *\n");
-	usleep(TIME_C);
-	printf("                                                               *                       *\n");
-	usleep(TIME_C);
-	printf("                                                               *                       *\n");
-	usleep(TIME_C);
-	printf("                                                               *                       *\n");
-	usleep(TIME_C);
-	printf("                                                               *                       *\n");
-	usleep(TIME_C);
-	printf("                                                               *                       *\n");
-	usleep(TIME_C);
-	printf("                                                               *                       *\n");
-	usleep(TIME_C);
-	printf("                                                               *                       *\n");
-	usleep(TIME_C);
-	printf("                                                               * * * * * * * * * * * * *\n");
+	for(j = 0; j < 20; j++){
+		printf("*                       *");
+		newline(&i);
+		usleep(TIME_C);
+	}
+	printf("* * * * * * * * * * * * *");
+	newline(&i);
 	usleep(TIME_C);
 }

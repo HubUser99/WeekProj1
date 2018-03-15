@@ -1,4 +1,4 @@
-OBJ = main.o circle.o line.o rectangle.o square.o triangle.o intersec.o
+OBJ = main.o circle.o line.o rectangle.o square.o triangle.o intersec.o newline.o
 DEPS = figures.h
 
 APPNAME = myapp.a

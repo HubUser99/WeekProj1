@@ -6,3 +6,4 @@ extern void circle();
 extern void square();
 extern void line();
 extern void intersec();
+extern void newline(int*);

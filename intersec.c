@@ -4,30 +4,45 @@
 
 void
 intersec(){
-	printf("                                                               *                       *\n");
+	int i = 8;
+	
+	printf("*                       *\n");
+	newline(&i);
 	usleep(TIME_C);
-	printf("                                                                 *                   *\n");
+	printf("  *                   *\n");
+	newline(&i);
 	usleep(TIME_C);
-	printf("                                                                   *               *\n");
+	printf("    *               *\n");
+	newline(&i);
 	usleep(TIME_C);
-	printf("                                                                     *           *\n");
+	printf("      *           *\n");
+	newline(&i);
 	usleep(TIME_C);
-	printf("                                                                       *       *\n");
+	printf("        *       *\n");
+	newline(&i);
 	usleep(TIME_C);
-	printf("                                                                         *   *\n");
+	printf("          *   *\n");
+	newline(&i);
 	usleep(TIME_C);
-	printf("                                                                           *\n");
+	printf("            *\n");
+	newline(&i);
 	usleep(TIME_C);
-	printf("                                                                         *   *\n");
+	printf("          *   *\n");
+	newline(&i);
 	usleep(TIME_C);
-	printf("                                                                       *       *\n");
+	printf("        *       *\n");
+	newline(&i);
 	usleep(TIME_C);
-	printf("                                                                     *           *\n");
+	printf("      *           *\n");
+	newline(&i);
 	usleep(TIME_C);
-	printf("                                                                   *               *\n");
+	printf("    *               *\n");
+	newline(&i);
 	usleep(TIME_C);
-	printf("                                                                 *                   *\n");
+	printf("  *                   *\n");
+	newline(&i);
 	usleep(TIME_C);
-	printf("                                                               *                       *\n");
+	printf("*                       *\n");
+	newline(&i);
 	usleep(TIME_C);
 }

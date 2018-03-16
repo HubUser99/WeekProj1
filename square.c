@@ -8,7 +8,7 @@ square(){
 	printf("* * * * * * * * * * * * *\n");
 	newline(&i);
 	usleep(TIME_C);
-	for(j = 0; j < 20; j++){
+	for(j = 0; j < 18; j++){
 		printf("*                       *");
 		newline(&i);
 		usleep(TIME_C);

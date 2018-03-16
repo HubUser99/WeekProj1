@@ -58,7 +58,7 @@ while(1){
 			break;
 	}
 	fflush(stdout);
-	printf("\n                                                           PRESS \"ENTER\" TO CONTINUE");
+	printf("\n                                                            PRESS \"ENTER\" TO CONTINUE");
 	getchar();
 	getchar();
 	clear();	
